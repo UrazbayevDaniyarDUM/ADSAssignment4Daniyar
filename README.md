@@ -157,8 +157,19 @@ Topological sorting
 Time Complexity
 O(V+E)O(V+E)O(V+E)
 
-Experimental Results
-Graph SizeBFS Time (ns)DFS Time (ns)10 vertices1200009500030 vertices210000180000100 vertices530000470000
+# Experimental Results
+
+10 vertices
+BFS Time: 120000 ns
+DFS Time: 95000 ns
+
+30 vertices
+BFS Time: 210000 ns
+DFS Time: 180000 ns
+
+100 vertices
+BFS Time: 530000 ns
+DFS Time: 470000 ns
 
 Observations
 As graph size increases, execution time also increases. Both BFS and DFS show similar performance because both algorithms have complexity O(V + E).
